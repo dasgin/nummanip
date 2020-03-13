@@ -5,7 +5,7 @@ import (
 	"github.com/fatih/color"
 )
 
-// Add and return sum of integers
+// Add and return sum of integer by variadic function argument
 func Add(numbers ...int) (int, error) {
 	sum := 0
 
