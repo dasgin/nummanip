@@ -5,7 +5,7 @@ import (
 	"github.com/fatih/color"
 )
 
-// Add integers
+// Add and return sum of integers
 func Add(numbers ...int) (int, error) {
 	sum := 0
 
